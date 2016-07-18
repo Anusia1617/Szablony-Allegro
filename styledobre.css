@@ -1024,3 +1024,8 @@
 #user_field .ogloszenie .small {
     font-size: 11.95px;
 }
+#user_field .centrowanie {
+    display: block;
+    margin: auto;
+    float: none;
+}

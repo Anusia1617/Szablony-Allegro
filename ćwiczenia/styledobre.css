@@ -259,7 +259,7 @@
 }
 
 #user_field table thead tr th, #user_field table thead tr td, #user_field table tfoot tr th, #user_field table tfoot tr td {
-    padding: 0.5rem 0.625rem 0.625rem;
+    padding: 10px 15px;
     font-size: 0.875rem;
     font-weight: bold;
     color: #fff;
@@ -267,7 +267,7 @@
 }
 
 #user_field table tr th, #user_field table tr td {
-    padding: 0.5625rem 0.625rem;
+    padding: 10px 15px;
     font-size: 0.875rem;
     color: #222222;
 }
@@ -935,7 +935,7 @@
     width: 100%;
     border-collapse: collapse;
     text-align: center;
-    padding: 0.5625rem 0.625rem;
+    padding: 9px 10px;
 }
 
 #user_field .ogloszenie table td {

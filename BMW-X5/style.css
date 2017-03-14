@@ -1,0 +1,8 @@
+.SZABLON-BMWX5
+{
+    width: 1200px;
+    background-image: url(background.jpg);
+    -webkit-box-shadow: inset 0px 0px 20px 10px rgba(255,0,0,0.54);
+    -moz-box-shadow: inset 0px 0px 20px 10px rgba(255,0,0,0.54);
+    box-shadow: inset 0px 0px 20px 10px rgba(255,0,0,0.54);
+}

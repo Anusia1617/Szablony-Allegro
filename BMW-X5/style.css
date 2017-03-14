@@ -1,8 +1,61 @@
 .SZABLON-BMWX5
 {
-    width: 1200px;
+    width: 1120px;
     background-image: url(background.jpg);
     -webkit-box-shadow: inset 0px 0px 20px 10px rgba(255,0,0,0.54);
     -moz-box-shadow: inset 0px 0px 20px 10px rgba(255,0,0,0.54);
     box-shadow: inset 0px 0px 20px 10px rgba(255,0,0,0.54);
+    padding: 40px;
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+}
+h1{
+color: white;
+    text-align:center;
+    text-shadow:0 0 6px #ffffbe;
+    font-size: 50pt;
+    font-family: Verdana;
+}
+
+.BMWX5
+{
+    width: 100%;
+}
+
+.przezroczystosc
+{
+    background: rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    margin-top: 50px;
+    font-size: 30pt;
+    margin-bottom: 50px;
+
+}
+
+ul {
+
+    list-style-type: none;
+    padding: 0;
+
+
+}
+
+span{
+    color: red;
+}
+
+.PRZYCISK
+{
+    -webkit-box-shadow: 0px 0px 10px 10px rgba(255,0,0,0.44);
+    -moz-box-shadow: 0px 0px 10px 10px rgba(255,0,0,0.44);
+    box-shadow: 0px 0px 10px 10px rgba(255,0,0,0.44);
+    font-family: Verdana;
+    font-size: 30pt;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+
 }

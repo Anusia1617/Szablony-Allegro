@@ -53,12 +53,35 @@ span{
     font-family: Verdana;
     font-size: 30pt;
     padding: 10px;
-    width: 500px;
-    margin: 0 auto;
     margin-bottom: 50px;
+    width:500px;
+    float:left;
+    margin: 20px;
+    height: 200px;
+
 
 
 }
+
+.PRZYCISK2
+{
+    -webkit-box-shadow: 0px 0px 10px 10px rgba(255,0,0,0.44);
+    -moz-box-shadow: 0px 0px 10px 10px rgba(255,0,0,0.44);
+    box-shadow: 0px 0px 10px 10px rgba(255,0,0,0.44);
+    font-family: Verdana;
+    font-size: 30pt;
+    padding: 10px;
+    margin-bottom: 50px;
+    width:500px;
+    float:left;
+    margin: 20px;
+    height: 200px;
+
+
+
+
+}
+
 
 .margines
 {
@@ -72,3 +95,13 @@ a
     color: red;
 
 }
+
+.TEKST-DOLNY
+{
+    position: relative;
+    top:50px;
+    margin-bottom: 70px;
+
+
+}
+

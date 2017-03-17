@@ -95,6 +95,17 @@ a
 }
 
 
+.przezroczystosc
+{
+    background: rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    margin-top: 50px;
+    font-size: 30pt;
+    margin-bottom: 50px;
+
+}
+
+
 
 
 

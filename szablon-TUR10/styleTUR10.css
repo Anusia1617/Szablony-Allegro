@@ -22,18 +22,16 @@ h1 {
 }
 
 h2 {
-    color: white;
+    color: #535358;
     text-align: center;
-    text-shadow: 0 0 6px #ffffbe;
-    font-size: 30pt;
+    font-size: 25pt;
     font-family: Corbel, Tahoma;
 }
 
 h3 {
-    color: white;
+    color: #535358;
     text-align: center;
-    text-shadow: 0 0 6px #ffffbe;
-    font-size: 30pt;
+    font-size: 25pt;
     font-family: Corbel, Tahoma;
 }
 

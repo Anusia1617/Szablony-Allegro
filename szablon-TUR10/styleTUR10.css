@@ -2,8 +2,8 @@
 {
     width: 1120px;
     background-color: #6d6d72;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(83,83,88,1);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(83,83,88,1);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(83,83,88,1) inset;
+    -moz-box-shadow: 10px 10px 5px 0px rgba(83,83,88,1) inset;
     box-shadow: 10px 10px 5px 0px rgba(83,83,88,1);
     padding: 40px;
     color: white;

@@ -96,7 +96,6 @@ span {
 }
 
 .kontenery-zdjecia {
-    width: 800px;
     display:flex;
     flex-wrap:wrap;
 }

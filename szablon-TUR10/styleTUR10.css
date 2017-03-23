@@ -38,7 +38,7 @@ h3 {
     box-shadow: 5px 5px 10px;
 }
 
-span{
+span {
     color: #4e4e53;
     text-align: center;
 
@@ -53,3 +53,11 @@ span{
     background-color: #00FFFF;
     height: 1px;
 }
+
+
+.informacja {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+

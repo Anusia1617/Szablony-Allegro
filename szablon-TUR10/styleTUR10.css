@@ -2,8 +2,8 @@
 {
     width: 1120px;
     background-color: #6d6d72;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(83,83,88,1) inset;
-    -moz-box-shadow: 10px 10px 5px 0px rgba(83,83,88,1) inset;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(83,83,88,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(83,83,88,1);
     box-shadow: 10px 10px 5px 0px rgba(83,83,88,1);
     padding: 40px;
     color: white;
@@ -11,10 +11,10 @@
     text-align: center;
 }
 
-.h1 {
+.h1{
     color: black;
     text-align:center;
-    text-shadow:0 0 6px #ffffbe;
     font-size: 50pt;
     font-family: Corbel, Tahoma;
 }
+

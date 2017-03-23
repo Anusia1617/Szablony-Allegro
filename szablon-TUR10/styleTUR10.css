@@ -186,3 +186,10 @@ color: #00FFFF;
 .MENU-KLIK a:hover {
     color: white;
 }
+
+.czas-realizacji {
+    color: white;
+    font-size: 13px;
+    font-family: tahoma;
+
+}

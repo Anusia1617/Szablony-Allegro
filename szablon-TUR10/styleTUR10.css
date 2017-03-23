@@ -84,19 +84,9 @@ span {
 
 }
 
-.KONTENER-KOLOR{
-    position:absolute;
-    top:120px;
-    left: 650px;
+.KONTENER-KOLOR {
 
 }
 
-.kontenery-zdjecia {
-    display:flex;
-    position:relative;
-}
-.obrazki{
-    width:50%;
-}
 
 

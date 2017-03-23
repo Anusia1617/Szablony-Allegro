@@ -109,7 +109,16 @@ span {
 }
 
 
+.rodzic {
+    display: flex;
+}
+.menu-lewe{
+    width:30%;
+}
 
+.opis-prawy {
+    width:70%;
+}
 
 
 

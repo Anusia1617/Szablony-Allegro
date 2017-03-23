@@ -11,3 +11,10 @@
     text-align: center;
 }
 
+.h1 {
+    color: white;
+    text-align:center;
+    text-shadow:0 0 6px #ffffbe;
+    font-size: 50pt;
+    font-family: Verdana;
+}

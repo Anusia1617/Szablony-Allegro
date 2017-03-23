@@ -176,3 +176,13 @@ a{
     margin-left: 6px;
 
 }
+
+
+.menu-lewe a:hover {
+color: #00FFFF;
+
+}
+
+.MENU-KLIK a:hover {
+    color: white;
+}

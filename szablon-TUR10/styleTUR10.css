@@ -135,8 +135,16 @@ span {
     color: #6d6d72;
     left: 186px;
 
+}
 
+.kreska {
+    border-right: 1px solid #01C3C3;
+    padding-right: 6px;
 
 }
 
 
+a {
+    text-decoration: none;
+    color: #6d6d72;
+}

@@ -15,9 +15,8 @@
 }
 
 h1 {
-    color: white;
+    color: #535358;
     text-align: center;
-    text-shadow: 0 0 6px #ffffbe;
     font-size: 30pt;
     font-family: Corbel, Tahoma;
 }
@@ -43,3 +42,10 @@ span{
     text-align: center;
 
 }
+
+.TEKST1 {
+    background: #00FFFF;
+
+}
+
+

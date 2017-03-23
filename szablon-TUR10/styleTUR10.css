@@ -7,7 +7,7 @@
     padding: 40px;
     color: white;
     font-family: Corbel, Tahoma;
-    text-align: center;
+    text-align: left;
 }
 
 .TUR-10 {
@@ -19,20 +19,23 @@ h1 {
     text-align: center;
     font-size: 30pt;
     font-family: Corbel, Tahoma;
+    box-shadow: 5px 5px 10px;
 }
 
 h2 {
     color: #535358;
     text-align: center;
-    font-size: 25pt;
+    font-size: 30pt;
     font-family: Corbel, Tahoma;
+    box-shadow: 5px 5px 10px;
 }
 
 h3 {
     color: #535358;
     text-align: center;
-    font-size: 25pt;
+    font-size: 30pt;
     font-family: Corbel, Tahoma;
+    box-shadow: 5px 5px 10px;
 }
 
 span{
@@ -46,4 +49,7 @@ span{
 
 }
 
-
+.moj-hr {
+    background-color: #00FFFF;
+    height: 1px;
+}

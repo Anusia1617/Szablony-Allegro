@@ -1,17 +1,18 @@
 .SZABLON-TUR10 {
-    width: 1120px;
+    width: 900px;
     background-color: #6d6d72;
     -webkit-box-shadow: 1px 0px 16px 17px rgba(83,83,88,0.63) inset;
     -moz-box-shadow: 1px 0px 16px 17px rgba(83,83,88,0.63) inset;
     box-shadow: 1px 0px 16px 17px rgba(83,83,88,0.63) inset;
-    padding: 40px;
+    padding: 150px;
     color: white;
     font-family: Corbel, Tahoma;
     text-align: left;
 }
 
 .TUR-10 {
-    width: 100%;
+    width: 120%;
+    margin-left: -10%;
 }
 
 h1 {
@@ -19,7 +20,7 @@ h1 {
     text-align: center;
     font-size: 30pt;
     font-family: Corbel, Tahoma;
-    box-shadow: 5px 5px 10px;
+    box-shadow: 5px 5px 10px #535358;
 }
 
 h2 {
@@ -27,7 +28,7 @@ h2 {
     text-align: center;
     font-size: 30pt;
     font-family: Corbel, Tahoma;
-    box-shadow: 5px 5px 10px;
+    box-shadow: 5px 5px 10px #535358;
 }
 
 h3 {
@@ -35,7 +36,7 @@ h3 {
     text-align: center;
     font-size: 30pt;
     font-family: Corbel, Tahoma;
-    box-shadow: 5px 5px 10px;
+    box-shadow: 5px 5px 10px #535358;
 }
 
 span {
@@ -87,24 +88,20 @@ span {
     box-shadow: 0px 2px 43px -2px rgba(0, 255, 255, 0.7);
     width: 900px;
     display: block;
+    position: relative;
     margin:auto;
 }
 
 
 .KONTENER-KOLOR{
     position:absolute;
-    top:120px;
+    top:170px;
     left: 650px;
+    z-index: 3;
 
 }
 
-.kontenery-zdjecia {
-    display:flex;
-    flex-wrap:wrap;
-}
-
-
-.zdjecia-kontenery img {
+.galeria img {
     width:100%
 }
 
@@ -120,6 +117,11 @@ span {
     width:70%;
 }
 
+.MENU {
+    position: absolute;
+    left: 100px;
+    top: 311px;
+}
 
 
 

@@ -118,6 +118,7 @@ h1, h2, h3{
 
 .rodzic {
     display: flex;
+    margin-top: 57px;
 }
 .menu-lewe{
     width:30%;
@@ -125,6 +126,7 @@ h1, h2, h3{
 
 .opis-prawy {
     width:70%;
+    margin-top: -22px;
 }
 
 .MENU {
@@ -154,4 +156,8 @@ h1, h2, h3{
 a {
     text-decoration: none;
     color: #6d6d72;
+}
+
+.PRZYCISK {
+    margin-left: -6px;
 }

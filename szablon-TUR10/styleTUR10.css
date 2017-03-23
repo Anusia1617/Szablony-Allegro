@@ -81,5 +81,13 @@ span {
 .galeria {
     box-shadow: 0 0 20px 3px white;
 
+
 }
 
+.KONTENER-KOLOR{
+    position:absolute;
+    right:10px;
+    top:120px;
+    left: 650px;
+
+}

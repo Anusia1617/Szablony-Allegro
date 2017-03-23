@@ -92,5 +92,10 @@ span {
 }
 
 .kontenery-zdjecia {
-
+    display:flex;
+    position:relative;
 }
+.obrazki{
+    width:50%;
+}
+

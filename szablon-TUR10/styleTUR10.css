@@ -1,13 +1,17 @@
 .SZABLON-TUR10 {
     width: 1120px;
     background-color: #6d6d72;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(83, 83, 88, 1);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(83, 83, 88, 1);
-    box-shadow: 10px 10px 5px 0px rgba(83, 83, 88, 1);
+    -webkit-box-shadow: 1px 0px 16px 17px rgba(83,83,88,0.63) inset;
+    -moz-box-shadow: 1px 0px 16px 17px rgba(83,83,88,0.63) inset;
+    box-shadow: 1px 0px 16px 17px rgba(83,83,88,0.63) inset;
     padding: 40px;
     color: white;
     font-family: Corbel, Tahoma;
     text-align: center;
+}
+
+.TUR-10 {
+    width: 100%;
 }
 
 h1 {
@@ -18,3 +22,24 @@ h1 {
     font-family: Corbel, Tahoma;
 }
 
+h2 {
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 6px #ffffbe;
+    font-size: 30pt;
+    font-family: Corbel, Tahoma;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 6px #ffffbe;
+    font-size: 30pt;
+    font-family: Corbel, Tahoma;
+}
+
+span{
+    color: #4e4e53;
+    text-align: center;
+
+}

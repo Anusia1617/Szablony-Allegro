@@ -122,6 +122,8 @@ h1, h2, h3{
 }
 .menu-lewe{
     width:30%;
+    font-family: Tahoma, Corbel;
+
 }
 
 .opis-prawy {
@@ -152,12 +154,25 @@ h1, h2, h3{
 
 }
 
-
-a {
+a{
+    color:white;
+    text-decoration: none;
+}
+.MENU-KLIK a {
     text-decoration: none;
     color: #6d6d72;
 }
 
 .PRZYCISK {
     margin-left: -6px;
+}
+
+
+.telefon1 {
+    margin-left: 4px;
+
+}
+.telefon1 a{
+    margin-left: 6px;
+
 }

@@ -46,11 +46,7 @@
     box-shadow: 5px 5px 10px #535358;
 }
 
-#user_field span {
-    color: #4e4e53;
-    text-align: center;
 
-}
 
 #user_field .TEKST1 {
     background: #00FFFF;
@@ -267,4 +263,10 @@
 #user_field .STAN {
     font-size: 20px;
     font-family: Corbel, Tahoma;
+}
+
+
+#user_field span {
+    font-size: 17px;
+    font-family: Tahoma;
 }

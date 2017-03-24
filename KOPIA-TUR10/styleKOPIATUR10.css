@@ -1,4 +1,4 @@
-.SZABLON-TUR10 {
+#user_field .SZABLON-TUR10 {
     width: 900px;
     background-color: #6d6d72;
     -webkit-box-shadow: 1px 0px 16px 17px rgba(83,83,88,0.63) inset;
@@ -9,15 +9,17 @@
     font-family: Corbel, Tahoma;
     text-align: left;
     padding-top: 25px;
+    padding-bottom: 10px;
+
 
 }
 
-.TUR-10 {
+#user_field .TUR-10 {
     width: 120%;
     margin-left: -10%;
 }
 
-h1 {
+#user_field h1 {
     color: #6d6d72;
     text-align: center;
     font-size: 30pt;
@@ -28,7 +30,7 @@ h1 {
 
 }
 
-h2 {
+#user_field h2 {
     color: #6d6d72;
     text-align: center;
     font-size: 30pt;
@@ -36,7 +38,7 @@ h2 {
     box-shadow: 5px 5px 10px #535358;
 }
 
-h3 {
+#user_field h3 {
     color: #6d6d72;
     text-align: center;
     font-size: 30pt;
@@ -44,30 +46,30 @@ h3 {
     box-shadow: 5px 5px 10px #535358;
 }
 
-span {
+#user_field span {
     color: #4e4e53;
     text-align: center;
 
 }
 
-.TEKST1 {
+#user_field .TEKST1 {
     background: #00FFFF;
     font-size: 30px;
     font-family: Corbel, Tahoma;
     font-weight: bold;
 }
 
-h1, h2, h3{
+#user_field h1, #user_field h2, #user_field h3{
     font-size: 30px;
 }
-.moj-hr {
+#user_field .moj-hr {
     background-color: #00FFFF;
     height: 1px;
     width: 800px;
 }
 
 
-.informacja {
+#user_field .informacja {
     text-align: center;
     color: white;
     font-size: 15px;
@@ -75,16 +77,18 @@ h1, h2, h3{
     margin-top: 50px;
 }
 
-.adnotacja {
+#user_field .adnotacja {
     text-align: center;
     color: #4e4e53;
     font-size: 15px;
     margin-top: 30px;
-    margin-bottom: 1px;
+    padding-bottom: 20px;
+
+
 
 }
 
-.NAZWA {
+#user_field .NAZWA {
     font-size: 30px;
     color: white;
     font-weight: bold;
@@ -92,7 +96,7 @@ h1, h2, h3{
 
 }
 
-.galeria {
+#user_field .galeria {
     -webkit-box-shadow: 0px 2px 43px -2px rgba(0, 255, 255, 0.7);
     -moz-box-shadow: 0px 2px 43px -2px rgba(0, 255, 255, 0.7);
     box-shadow: 0px 2px 43px -2px rgba(0, 255, 255, 0.7);
@@ -103,7 +107,7 @@ h1, h2, h3{
 }
 
 
-.KONTENER-KOLOR{
+#user_field .KONTENER-KOLOR{
     position:absolute;
     top:84px;
     left: 650px;
@@ -111,16 +115,16 @@ h1, h2, h3{
 
 }
 
-.galeria img {
+#user_field .galeria img {
     width:100%
 }
 
 
-.rodzic {
+#user_field .rodzic {
     display: flex;
     margin-top: 57px;
 }
-.menu-lewe{
+#user_field .menu-lewe{
     width:30%;
     font-family: Tahoma, Corbel;
     color: white;
@@ -129,18 +133,18 @@ h1, h2, h3{
 
 }
 
-.opis-prawy {
+#user_field .opis-prawy {
     width:70%;
     margin-top: -22px;
 }
 
-.MENU {
+#user_field .MENU {
     position: absolute;
     left: 100px;
     top: 226px;
 }
 
-.MENU-KLIK {
+#user_field .MENU-KLIK {
     position: absolute;
     top: 240px;
     font-family: Corbel, Tahoma;
@@ -151,55 +155,55 @@ h1, h2, h3{
 
 }
 
-.kreska {
+#user_field .kreska {
     border-right: 1px solid #01C3C3;
     padding-right: 6px;
 
 }
 
-a{
+#user_field a{
     color:white;
     text-decoration: none;
 }
-.MENU-KLIK a {
+#user_field .MENU-KLIK a {
     text-decoration: none;
     color: #6d6d72;
 }
 
-.PRZYCISK {
+#user_field .PRZYCISK {
     margin-left: -6px;
     margin-top: -18px;
 
 }
 
 
-.telefon1 {
+#user_field .telefon1 {
     margin-left: 4px;
 
 }
-.telefon1 a{
+#user_field .telefon1 a{
     margin-left: 6px;
 
 }
 
 
-.menu-lewe a:hover {
+#user_field .menu-lewe a:hover {
     color: #00FFFF;
 
 }
 
-.MENU-KLIK a:hover {
+#user_field .MENU-KLIK a:hover {
     color: white;
 }
 
-.czas-realizacji {
+#user_field .czas-realizacji {
     color: white;
     font-size: 13px;
     font-family: tahoma;
 
 }
 
-.firma {
+#user_field .firma {
     font-weight: bold;
     font-size: 11.7px;
 

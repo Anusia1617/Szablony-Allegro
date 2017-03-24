@@ -57,6 +57,7 @@
     font-size: 30px;
     font-family: Corbel, Tahoma;
     font-weight: bold;
+    margin-bottom: 35px;
 }
 
 #user_field h1, #user_field h2, #user_field h3{
@@ -176,6 +177,12 @@
 
 }
 
+#user_field .PRZYCISK2 {
+    margin-left: -6px;
+    margin-top: 16px;
+}
+
+
 
 #user_field .telefon1 {
     margin-left: 4px;
@@ -206,6 +213,8 @@
 #user_field .firma {
     font-weight: bold;
     font-size: 11.7px;
+    margin-bottom: 20px;
+
 
 
 }

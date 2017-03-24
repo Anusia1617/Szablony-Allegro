@@ -219,8 +219,23 @@
 
 }
 
-.ZAPRASZAMY {
+#user_field .ZAPRASZAMY {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#user_field .GORNY-OPIS {
+    font-size: 20px;
+}
+
+
+#user_field .DOLNY-OPIS {
     font-size: 20px;
     font-weight: bold;
 
 }
+
+
+
+

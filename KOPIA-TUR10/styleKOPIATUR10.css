@@ -65,7 +65,7 @@
 }
 #user_field .moj-hr {
     background-color: #00FFFF;
-    height: 1px;
+    height: 2px;
     width: 800px;
 }
 
@@ -76,6 +76,8 @@
     font-size: 15px;
     margin-bottom: 30px;
     margin-top: 50px;
+    font-family: Corbel, Tahoma;
+
 }
 
 #user_field .adnotacja {
@@ -84,13 +86,14 @@
     font-size: 15px;
     margin-top: 30px;
     padding-bottom: 20px;
-
+    font-family: Corbel, Tahoma;
+    margin-top: 20px;
 
 
 }
 
 #user_field .NAZWA {
-    font-size: 35px;
+    font-size: 30px;
     color: white;
     font-weight: bold;
     font-family: Corbel, Tahoma;
@@ -224,25 +227,27 @@
 #user_field .ZAPRASZAMY {
     font-size: 20px;
     font-weight: bold;
+    font-family: Corbel, Tahoma;
 }
 
 
 #user_field .GORNY-OPIS {
     font-size: 20px;
+    font-family: Corbel, Tahoma;
 }
 
 
 #user_field .DOLNY-OPIS {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
     margin-top: 20px;
+    font-family: Corbel, Tahoma;
 
 }
 
 #user_field .WYMIARY {
     font-size: 20px;
     margin-top: 20px;
-    font-family: Tahoma, Corbel;
+    font-family: Corbel, Tahoma;
     margin-top: -1px;
 
 
@@ -251,8 +256,14 @@
 
 #user_field .CENA {
     font-size: 20px;
-    font-family: Tahoma, Corbel;
+    font-family: Corbel, Tahoma;
     margin-bottom: 35px;
 
 
+}
+
+
+#user_field .STAN {
+    font-size: 20px;
+    font-family: Corbel, Tahoma;
 }

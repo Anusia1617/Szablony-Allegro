@@ -284,3 +284,296 @@
     color: white;
 
 }
+
+
+
+/*
+----> KOLEJNA KOPIA CSS <----
+*/
+
+
+#user_field .SZABLON-TUR10 {
+    width: 900px;
+    background-color: #6d6d72;
+    -webkit-box-shadow: 1px 0px 16px 17px rgba(83,83,88,0.63) inset;
+    -moz-box-shadow: 1px 0px 16px 17px rgba(83,83,88,0.63) inset;
+    box-shadow: 1px 0px 16px 17px rgba(83,83,88,0.63) inset;
+    padding: 150px;
+    color: white;
+    font-family: Corbel, Tahoma;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+
+}
+
+#user_field .TUR-10 {
+    width: 120%;
+    margin-left: -10%;
+}
+
+#user_field h1 {
+    color: #6d6d72;
+    text-align: center;
+    font-size: 30pt;
+    font-family: Corbel, Tahoma;
+    box-shadow: 5px 5px 10px #535358;
+    margin-top: -4px;
+    padding-left:235px;
+
+}
+
+#user_field h2 {
+    color: #6d6d72;
+    text-align: center;
+    font-size: 30pt;
+    font-family: Corbel, Tahoma;
+    box-shadow: 5px 5px 10px #535358;
+}
+
+#user_field h3 {
+    color: #6d6d72;
+    text-align: center;
+    font-size: 30pt;
+    font-family: Corbel, Tahoma;
+    box-shadow: 5px 5px 10px #535358;
+}
+
+
+
+#user_field .TEKST1 {
+    background: #00FFFF;
+    font-size: 30px;
+    font-family: Corbel, Tahoma;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#user_field h1, #user_field h2, #user_field h3{
+    font-size: 30px;
+}
+#user_field .moj-hr {
+    background-color: #00FFFF;
+    height: 2px;
+    width: 800px;
+}
+
+
+#user_field .informacja {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: Corbel, Tahoma;
+
+}
+
+#user_field .adnotacja {
+    text-align: center;
+    color: #4e4e53;
+    font-size: 15px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    font-family: Corbel, Tahoma;
+    margin-top: 20px;
+
+
+}
+
+#user_field .NAZWA {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: Corbel, Tahoma;
+
+}
+
+#user_field .galeria {
+    -webkit-box-shadow: 0px 2px 43px -2px rgba(0, 255, 255, 0.7);
+    -moz-box-shadow: 0px 2px 43px -2px rgba(0, 255, 255, 0.7);
+    box-shadow: 0px 2px 43px -2px rgba(0, 255, 255, 0.7);
+    width: 900px;
+    display: block;
+    position: relative;
+    margin:auto;
+    margin-top: 25px;
+}
+
+
+#user_field .KONTENER-KOLOR{
+    position:absolute;
+    top:84px;
+    left: 650px;
+    z-index: 3;
+
+}
+
+
+
+#user_field .galeria img {
+    width:100%
+}
+
+
+#user_field .rodzic {
+    display: flex;
+    margin-top: 57px;
+}
+#user_field .menu-lewe{
+    width:30%;
+    font-family: Tahoma, Corbel;
+    color: white;
+    font-size: 13px;
+
+
+}
+
+#user_field .opis-prawy {
+    width:70%;
+    margin-top: -22px;
+}
+
+#user_field .MENU {
+    position: absolute;
+    left: 100px;
+    top: 226px;
+}
+
+#user_field .MENU-KLIK {
+    position: absolute;
+    top: 240px;
+    font-family: Corbel, Tahoma;
+    font-weight: bold;
+    font-size: 30px;
+    color: #6d6d72;
+    left: 186px;
+
+}
+
+#user_field .kreska {
+    border-right: 1px solid #01C3C3;
+    padding-right: 6px;
+
+}
+
+#user_field a{
+    color:white;
+    text-decoration: none;
+}
+#user_field .MENU-KLIK a {
+    text-decoration: none;
+    color: #6d6d72;
+}
+
+#user_field .PRZYCISK {
+    margin-left: -6px;
+    margin-top: -18px;
+
+}
+
+#user_field .PRZYCISK2 {
+    margin-left: -6px;
+    margin-top: 16px;
+}
+
+
+
+#user_field .telefon1 {
+    margin-left: 4px;
+
+}
+#user_field .telefon1 a{
+    margin-left: 6px;
+
+}
+
+
+#user_field .menu-lewe a:hover {
+    color: #00FFFF;
+
+}
+
+#user_field .MENU-KLIK a:hover {
+    color: white;
+}
+
+#user_field .czas-realizacji {
+    color: white;
+    font-size: 13px;
+    font-family: tahoma;
+
+}
+
+#user_field .firma {
+    font-weight: bold;
+    font-size: 11.7px;
+    margin-bottom: 20px;
+
+
+
+}
+
+#user_field .ZAPRASZAMY {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Corbel, Tahoma;
+}
+
+
+#user_field .GORNY-OPIS {
+    font-size: 20px;
+    font-family: Corbel, Tahoma;
+}
+
+
+#user_field .DOLNY-OPIS {
+    font-size: 20px;
+    font-family: Corbel, Tahoma;
+
+}
+
+#user_field .WYMIARY {
+    font-size: 20px;
+    font-family: Corbel, Tahoma;
+    margin-top: -20px;
+
+
+}
+
+
+#user_field .CENA {
+    font-size: 20px;
+    font-family: Corbel, Tahoma;
+    margin-bottom: 20px;
+    margin-top: -15px;
+
+
+}
+
+
+#user_field .STAN {
+    font-size: 20px;
+    font-family: Corbel, Tahoma;
+}
+
+
+#user_field span {
+    font-size: 17px;
+    font-family: Tahoma;
+}
+
+
+#user_field .METAL-KOP-LOGO {
+    margin-top: 20px;
+    height: 84px;
+
+}
+
+#user_field .PARTNER {
+    font-size: 16px;
+    font-family: Tahoma;
+    color: white;
+
+}

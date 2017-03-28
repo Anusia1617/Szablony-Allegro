@@ -1,0 +1,25 @@
+
+.stopka{
+    width:100%;
+    padding:20px;
+}
+
+.gora-stopki{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gora-stopki img{
+    width:100px;
+}
+
+.dol-stopki{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.dol-stopki img{
+    height:50px;
+}
+

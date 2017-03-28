@@ -1,0 +1,41 @@
+
+
+.stopka{
+    width:100%;
+    padding:20px;
+}
+
+.gora-stopki{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gora-stopki img{
+    width:100px;
+}
+
+.dol-stopki{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.dol-stopki img{
+    height:50px;
+}
+
+.FHRM {
+    font-family: Segoe UI;
+    font-size: 18px;
+    text-align: center;
+    text-align: center;
+    margin-top: 7px;
+}
+
+
+.prawy-naglowek {
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 7px
+}

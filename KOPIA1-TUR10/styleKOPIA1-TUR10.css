@@ -584,7 +584,7 @@
 
 
 /*
-----> NEXT KOPIA CSS 28.03.2017 - najnowsza allegro <----
+----> NEXT KOPIA CSS 28.03.2017 - wrzucone logo <----
 */
 
 
@@ -867,8 +867,16 @@
 
 }
 
+
+#user_field .WSP-logo {
+    margin-top: 20px;
+    height: 84px;
+
+}
+
+
 #user_field .PARTNER {
-    font-size: 16px;
+    font-size: 15px;
     font-family: Tahoma;
     color: white;
 
@@ -881,6 +889,10 @@
     height: 150px;
 
 }
+
+
+
+
 
 
 

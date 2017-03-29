@@ -73,9 +73,14 @@
 
 }
 
-.stopka-prawo1 {
-    height: 120px;
+.stopka-prawo img {
+    height: 50px;
 
 }
 
+.stopka-prawo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}

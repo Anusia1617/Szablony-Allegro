@@ -5,16 +5,31 @@
     align-items: center;
 }
 
-
 .stopka-lewo img {
- height: 150px;
+    height: 150px;
 
-  }
-
+}
 
 .FHRM {
     font-family: Segoe UI;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.tekst-srodkowy1 {
+    font-family: Segoe UI;
     font-size: 18px;
+    text-align: center;
+    margin-top: 7px;
+    font-weight: bold;
+
+}
+
+
+.tekst-srodkowy2 {
+    font-family: Segoe UI;
+    font-size: 15px;
     text-align: center;
     margin-top: 7px;
 }

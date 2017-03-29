@@ -4,7 +4,19 @@
     justify-content: space-around;
     align-items: center;
 }
+
+
 .stopka-lewo img {
  height: 150px;
 
   }
+
+
+.FHRM {
+    font-family: Segoe UI;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+

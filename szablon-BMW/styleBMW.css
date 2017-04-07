@@ -1,6 +1,6 @@
 
 
-#user_field .SZABLON-TUR10 {
+#user_field .szablon-BMW {
     width: 900px;
     background-color: #6d6d72;
     -webkit-box-shadow: 1px 0px 16px 17px rgba(83, 83, 88, 0.63) inset;
@@ -15,7 +15,7 @@
 
 }
 
-#user_field .TUR-10 {
+#user_field .BMW {
     width: 120%;
     margin-left: -10%;
 }

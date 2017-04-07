@@ -388,3 +388,14 @@ ul {
     text-align: center;
 
 }
+
+.lista {
+    padding-left:0;
+}
+
+
+.tylauto {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+}

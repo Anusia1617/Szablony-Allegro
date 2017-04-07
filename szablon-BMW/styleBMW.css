@@ -240,7 +240,17 @@ a {
     font-family: Corbel, Tahoma;
     text-align: justify;
 
+
 }
+
+.DOLNY-OPIScdn {
+    font-size: 20px;
+    font-family: Corbel, Tahoma;
+    text-align: center;
+
+
+}
+
 
 
 
@@ -359,5 +369,31 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+
+
+ul {
+
+    list-style-type: none;
+
+}
+
+
+.ZAWARTOŚĆ {
+    display:flex;
+}
+
+.lista.lewa.strona {
+flex: 1;
+
+
+
+}
+
+.lista.prawa.strona {
+flex: 1;
+
+
 
 }

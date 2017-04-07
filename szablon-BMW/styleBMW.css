@@ -1,6 +1,6 @@
 
 
-#user_field .szablon-BMW {
+.szablon-BMW {
     width: 900px;
     background-color: #6d6d72;
     -webkit-box-shadow: 1px 0px 16px 17px rgba(83, 83, 88, 0.63) inset;
@@ -15,12 +15,12 @@
 
 }
 
-#user_field .BMW {
+.BMW {
     width: 120%;
     margin-left: -10%;
 }
 
-#user_field h1 {
+h1 {
     color: #6d6d72;
     text-align: center;
     font-size: 30pt;
@@ -31,7 +31,7 @@
 
 }
 
-#user_field h2 {
+h2 {
     color: #6d6d72;
     text-align: center;
     font-size: 30pt;
@@ -41,7 +41,7 @@
 
 }
 
-#user_field h3 {
+h3 {
     color: #6d6d72;
     text-align: center;
     font-size: 30pt;
@@ -49,7 +49,7 @@
     box-shadow: 5px 5px 10px #535358;
 }
 
-#user_field .TEKST1 {
+.TEKST1 {
     background: #00FFFF;
     font-size: 30px;
     font-family: Corbel, Tahoma;
@@ -59,17 +59,15 @@
 
 }
 
-#user_field h1, #user_field h2, #user_field h3 {
-    font-size: 30px;
-}
 
-#user_field .moj-hr {
+
+.moj-hr {
     background-color: #00FFFF;
     height: 1.5px;
 
 }
 
-#user_field .informacja {
+.informacja {
     text-align: center;
     color: white;
     font-size: 15px;
@@ -78,7 +76,7 @@
 
 }
 
-#user_field .adnotacja {
+.adnotacja {
     text-align: center;
     color: #4e4e53;
     font-size: 15px;
@@ -89,7 +87,7 @@
 
 }
 
-#user_field .NAZWA {
+.NAZWA {
     font-size: 30px;
     color: white;
     font-weight: bold;
@@ -97,7 +95,7 @@
 
 }
 
-#user_field .galeria {
+.galeria {
     -webkit-box-shadow: 0px 2px 43px -2px rgba(0, 255, 255, 0.7);
     -moz-box-shadow: 0px 2px 43px -2px rgba(0, 255, 255, 0.7);
     box-shadow: 0px 2px 43px -2px rgba(0, 255, 255, 0.7);
@@ -108,7 +106,7 @@
     margin-top: 25px;
 }
 
-#user_field .KONTENER-KOLOR {
+.KONTENER-KOLOR {
     position: absolute;
     top: 84px;
     left: 650px;
@@ -116,16 +114,16 @@
 
 }
 
-#user_field .galeria img {
+.galeria img {
     width: 100%
 }
 
-#user_field .rodzic {
+.rodzic {
     display: flex;
     margin-top: 57px;
 }
 
-#user_field .menu-lewe {
+.menu-lewe {
     width: 30%;
     font-family: Tahoma, Corbel;
     color: white;
@@ -133,18 +131,18 @@
 
 }
 
-#user_field .opis-prawy {
+.opis-prawy {
     width: 70%;
     margin-top: -22px;
 }
 
-#user_field .MENU {
+.MENU {
     position: absolute;
     left: 100px;
     top: 226px;
 }
 
-#user_field .MENU-KLIK {
+.MENU-KLIK {
     position: absolute;
     top: 240px;
     font-family: Corbel, Tahoma;
@@ -155,92 +153,92 @@
 
 }
 
-#user_field .kreska {
+.kreska {
     border-right: 1px solid #01C3C3;
     padding-right: 6px;
 
 }
 
-#user_field a {
+ a {
     color: white;
     text-decoration: none;
 }
 
-#user_field .MENU-KLIK a {
+.MENU-KLIK a {
     text-decoration: none;
     color: #6d6d72;
 }
 
-#user_field .PRZYCISK {
+.PRZYCISK {
     margin-left: -6px;
     margin-top: -18px;
 
 }
 
-#user_field .PRZYCISK2 {
+.PRZYCISK2 {
     margin-left: -6px;
     margin-top: 16px;
 }
 
-#user_field .telefon1 {
+.telefon1 {
     margin-left: 4px;
 
 }
 
-#user_field .telefon1 a {
+.telefon1 a {
     margin-left: 6px;
 
 }
 
-#user_field .menu-lewe a:hover {
+.menu-lewe a:hover {
     color: #00FFFF;
 
 }
 
-#user_field .MENU-KLIK a:hover {
+.MENU-KLIK a:hover {
     color: white;
 }
 
-#user_field .czas-realizacji {
+.czas-realizacji {
     color: white;
     font-size: 13px;
     font-family: tahoma;
 
 }
 
-#user_field .firma {
+.firma {
     font-weight: bold;
     font-size: 11.7px;
     margin-bottom: 20px;
 
 }
 
-#user_field .ZAPRASZAMY {
+.ZAPRASZAMY {
     font-size: 20px;
     font-weight: bold;
     font-family: Corbel, Tahoma;
 }
 
-#user_field .GORNY-OPIS {
+.GORNY-OPIS {
     font-size: 20px;
     font-family: Corbel, Tahoma;
     text-align: justify;
 }
 
-#user_field .DOLNY-OPIS {
+.DOLNY-OPIS {
     font-size: 20px;
     font-family: Corbel, Tahoma;
 
 }
 
-#user_field .WYMIARY {
+.WYMIARY {
     font-size: 20px;
     font-family: Corbel, Tahoma;
     margin-top: -20px;
 
 }
 
-#user_field .CENA {
+.CENA {
     font-size: 20px;
     font-family: Corbel, Tahoma;
     margin-bottom: 20px;
@@ -248,31 +246,31 @@
 
 }
 
-#user_field .STAN {
+.STAN {
     font-size: 20px;
     font-family: Corbel, Tahoma;
     text-align: justify;
 }
 
-#user_field .LITERY {
+.LITERY {
     font-size: 17px;
     font-family: Tahoma;
 }
 
-#user_field .PARTNER {
+.PARTNER {
     font-size: 14px;
     font-family: Tahoma;
     color: white;
 
 }
 
-#user_field .FHRM-logo {
+.FHRM-logo {
 
     margin-top: 20px;
     height: 150px;
 }
 
-#user_field .stopka {
+.stopka {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -281,19 +279,19 @@
 
 }
 
-#user_field .stopka-lewo img {
+.stopka-lewo img {
     height: 100px;
 
 }
 
-#user_field .FHRM {
+.FHRM {
     font-family: Segoe UI;
     text-align: center;
     margin-top: 7px;
 
 }
 
-#user_field .tekst-srodkowy1 {
+.tekst-srodkowy1 {
     font-family: Segoe UI;
     font-size: 18px;
     text-align: center;
@@ -303,7 +301,7 @@
 
 }
 
-#user_field .tekst-srodkowy2 {
+.tekst-srodkowy2 {
     font-family: Segoe UI;
     font-size: 15px;
     text-align: center;
@@ -312,7 +310,7 @@
 
 }
 
-#user_field .WWW {
+.WWW {
     text-decoration: none;
     color: white;
     font-family: "Segoe UI";
@@ -320,12 +318,12 @@
 
 }
 
-#user_field .WWW:hover {
+.WWW:hover {
     color: #00FFFF;
 
 }
 
-#user_field .tekst-srodkowy3 {
+.tekst-srodkowy3 {
     color: white;
     font-family: "Segoe UI";
     font-size: 13px;
@@ -333,7 +331,7 @@
 
 }
 
-#user_field .tekst-srodkowy4 {
+.tekst-srodkowy4 {
     color: white;
     font-family: "Segoe UI";
     font-size: 12px;
@@ -341,12 +339,12 @@
 
 }
 
-#user_field .stopka-prawo img {
+.stopka-prawo img {
     height: 90px;
 
 }
 
-#user_field .stopka-prawo {
+.stopka-prawo {
     display: flex;
     flex-direction: column;
     align-items: center;

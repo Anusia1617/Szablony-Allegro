@@ -240,7 +240,6 @@ a {
     font-family: Corbel, Tahoma;
     text-align: justify;
 
-
 }
 
 .DOLNY-OPIScdn {
@@ -248,11 +247,7 @@ a {
     font-family: Corbel, Tahoma;
     text-align: center;
 
-
 }
-
-
-
 
 .CENA {
     font-size: 20px;
@@ -365,13 +360,12 @@ a {
 
 }
 
- .stopka-prawo {
+.stopka-prawo {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
-
 
 ul {
 
@@ -379,21 +373,18 @@ ul {
 
 }
 
-
 .ZAWARTOŚĆ {
-    display:flex;
+    display: flex;
 }
 
 .lista.lewa.strona {
-flex: 1;
-
-
+    flex: 1;
+    text-align: center;
 
 }
 
 .lista.prawa.strona {
-flex: 1;
-
-
+    flex: 1;
+    text-align: center;
 
 }

@@ -397,7 +397,9 @@ ul {
 .tylauto {
     position: absolute;
     z-index: 0;
-    width: 100%;
+    width: 90%;
     top:0;
     left:0;
+    opacity: 0.1;
+    margin-top: 538px;
 }

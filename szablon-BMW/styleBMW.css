@@ -1,4 +1,4 @@
-.SZABLON-TUR10 {
+.szablon-BMW {
     width: 900px;
     background-color: #6d6d72;
     -webkit-box-shadow: 1px 0px 16px 17px rgba(83, 83, 88, 0.63) inset;
@@ -13,7 +13,7 @@
 
 }
 
-.TUR-10 {
+.BMW {
     width: 120%;
     margin-left: -10%;
 }
@@ -71,7 +71,7 @@ h3 {
 
 .moj-hr {
     background-color: #00FFFF;
-    height: 1.5px;
+    height: 1px;
 
 }
 

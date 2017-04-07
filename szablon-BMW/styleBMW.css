@@ -232,20 +232,17 @@ a {
     font-size: 20px;
     font-family: Corbel, Tahoma;
     text-align: justify;
+    margin-top: -2px;
 }
 
 .DOLNY-OPIS {
     font-size: 20px;
     font-family: Corbel, Tahoma;
+    text-align: justify;
 
 }
 
-.WYMIARY {
-    font-size: 20px;
-    font-family: Corbel, Tahoma;
-    margin-top: -20px;
 
-}
 
 .CENA {
     font-size: 20px;

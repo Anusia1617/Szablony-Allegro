@@ -379,13 +379,20 @@ ul {
 
 .lista.lewa.strona {
     flex: 1;
-    text-align: center;
+    text-align: left;
+    color: #00FFFF;
+    font-size: 20px;
+    margin: 0 0 0 50px;
+
 
 }
 
 .lista.prawa.strona {
     flex: 1;
-    text-align: center;
+    text-align: left;
+    color: #00FFFF;
+    font-size: 20px;
+    margin: 0 0 0 50px;
 
 }
 

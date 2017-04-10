@@ -379,10 +379,11 @@ ul {
 
 .ZAWARTOŚĆ {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lista.lewa.strona {
-    flex: 1;
     text-align: left;
     color: #00FFFF;
     font-size: 20px;
@@ -392,7 +393,6 @@ ul {
 }
 
 .lista.prawa.strona {
-    flex: 1;
     text-align: left;
     color: #00FFFF;
     font-size: 20px;
@@ -417,8 +417,8 @@ ul {
 
 
 .rys-tech {
-    height: 370px;
-    margin-top: 50px;
+    display: block;
+    width: 100%;
 }
 
 .LITERYDUZE {

@@ -191,6 +191,7 @@ a {
 
 .telefon1 {
     margin-left: 4px;
+    margin-top: -12px;
 
 }
 
@@ -229,7 +230,7 @@ a {
 }
 
 .GORNY-OPIS {
-    font-size: 20px;
+    font-size: 29px;
     font-family: Corbel, Tahoma;
     text-align: justify;
     margin-top: -2px;
@@ -416,4 +417,14 @@ ul {
 
 .rys-tech {
     height: 370px;
+}
+
+.LITERYDUZE {
+    font-size: 25px;
+    font-family: Tahoma;
+}
+
+.fa-vat {
+    color: #00FFFF;
+
 }

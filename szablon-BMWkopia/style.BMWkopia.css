@@ -1,4 +1,4 @@
-.szablon-BMWkopia {
+.szablon-BMW {
     width: 900px;
     background-color: #6d6d72;
     -webkit-box-shadow: 1px 0px 16px 17px rgba(83, 83, 88, 0.63) inset;
@@ -408,7 +408,7 @@ ul {
 .tylauto {
     position: absolute;
     z-index: 0;
-    width: 89%;
+    width: 100%;
     top: 702px;
     left:7px;
     opacity: 0.7;

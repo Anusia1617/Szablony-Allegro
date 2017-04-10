@@ -409,17 +409,6 @@ ul {
 }
 
 
-.tylauto {
-    position: absolute;
-    z-index: 0;
-    width: 100%;
-    top: 702px;
-    left:7px;
-    opacity: 0.3;
-    margin-top: 54px;
-
-}
-
 
 .rys-tech {
     display: block;
@@ -438,5 +427,8 @@ ul {
 }
 
 .krycie {
-    z-index: 2;
+    margin: 0 -125px 0 -125px;
+    padding: 0 125px 0 125px;
+    background: url(http://galeria.abrsteel.pl/FHRM/szablonTUR10/zdjecia/tylauta2.png);
+    background-size: cover;
 }

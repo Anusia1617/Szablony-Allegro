@@ -412,7 +412,7 @@ ul {
 .tylauto {
     position: absolute;
     z-index: 0;
-    width: 80%;
+    width: 100%;
     top: 702px;
     left:7px;
     opacity: 0.3;

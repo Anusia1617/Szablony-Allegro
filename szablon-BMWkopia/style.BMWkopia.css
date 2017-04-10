@@ -416,7 +416,7 @@ ul {
     top: 702px;
     left:7px;
     opacity: 0.3;
-    margin-top: -52px;
+    margin-top: 54px;
 
 }
 
@@ -435,4 +435,8 @@ ul {
 .fa-vat {
     color: #00FFFF;
 
+}
+
+.krycie {
+    z-index: 2;
 }

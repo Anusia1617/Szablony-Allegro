@@ -381,7 +381,6 @@ ul {
 .ZAWARTOŚĆ {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .lista.lewa.strona {
@@ -431,5 +430,6 @@ ul {
     margin: 0 -125px 0 -125px;
     padding: 0 125px 0 125px;
     background: url(http://galeria.abrsteel.pl/FHRM/szablonTUR10/zdjecia/tylauta3.png);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
 }

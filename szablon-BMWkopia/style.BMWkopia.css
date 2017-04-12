@@ -456,6 +456,8 @@ ul {
     font-size: 18px;
     width: 200px;
     line-height: 20px;
+    border-radius: 5px;
+
 }
 
 .pudelko2 {
@@ -465,6 +467,8 @@ ul {
     font-size: 18px;
     width: 200px;
     line-height: 20px;
+    border-radius: 5px;
+
 }
 
 .pudelko3 {
@@ -474,6 +478,8 @@ ul {
     font-size: 18px;
     width: 200px;
     line-height: 20px;
+    border-radius: 5px;
+
 }
 
 .pudelko4 {
@@ -483,4 +489,5 @@ ul {
     font-size: 18px;
     width: 200px;
     line-height: 20px;
+    border-radius: 5px;
 }

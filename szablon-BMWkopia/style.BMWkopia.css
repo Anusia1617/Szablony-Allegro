@@ -438,3 +438,49 @@ ul {
     color: #00FFFF;
 
 }
+
+.pudelka {
+    display:flex;
+    margin-bottom: 56px;
+    color: #00FFFF;
+    font-family: Corbel, Tahoma;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.pudelko1 {
+    background: rgba(0,0,0,0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    width: 200px;
+    line-height: 20px;
+}
+
+.pudelko2 {
+    background: rgba(0,0,0,0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    width: 200px;
+    line-height: 20px;
+}
+
+.pudelko3 {
+    background: rgba(0,0,0,0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    width: 200px;
+    line-height: 20px;
+}
+
+.pudelko4 {
+    background: rgba(0,0,0,0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    width: 200px;
+    line-height: 20px;
+}

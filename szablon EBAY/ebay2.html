@@ -1,9 +1,6 @@
-
-<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" >
-
-
 <style>
-    #user_field .ogloszenie {
+
+    .ogloszenie {
         color: #222;
         font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
         font-weight: normal;
@@ -11,12 +8,12 @@
         line-height: 1;
         cursor: default;
     }
-    #user_field *, #user_field *::before, #user_field *::after {
+    *, *::before, *::after {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
-    #user_field .row {
+    .row {
         width: 98%;
         margin-left: auto;
         margin-right: auto;
@@ -24,22 +21,22 @@
         margin-bottom: 0;
         *zoom: 1;
     }
-    #user_field .row:before, #user_field .row:after {
+    .row:before, .row:after {
         content: " ";
         display: table;
     }
-    #user_field .row:after {
+    .row:after {
         clear: both;
     }
-    #user_field .row.collapse > .column, #user_field .row.collapse > .columns {
+    .row.collapse > .column, .row.collapse > .columns {
         padding-left: 0;
         padding-right: 0;
     }
-    #user_field .row.collapse .row {
+    .row.collapse .row {
         margin-left: 0;
         margin-right: 0;
     }
-    #user_field .row .row {
+    .row .row {
         width: auto;
         margin-left: -0.9375rem;
         margin-right: -0.9375rem;
@@ -48,38 +45,38 @@
         max-width: none;
         *zoom: 1;
     }
-    #user_field .row .row:before, #user_field .row .row:after {
+    .row .row:before, .row .row:after {
         content: " ";
         display: table;
     }
-    #user_field .row .row:after {
+    .row .row:after {
         clear: both;
     }
-    #user_field .row .row.collapse {
+    .row .row.collapse {
         width: auto;
         margin: 0;
         max-width: none;
         *zoom: 1;
     }
-    #user_field .row .row.collapse:before, #user_field .row .row.collapse:after {
+    .row .row.collapse:before, .row .row.collapse:after {
         content: " ";
         display: table;
     }
-    #user_field .row .row.collapse:after {
+    .row .row.collapse:after {
         clear: both;
     }
-    #user_field a {
+    a {
         color: #B20008;
         text-decoration: none;
         line-height: inherit;
     }
-    #user_field a:hover, #user_field a:focus {
+    a:hover, a:focus {
         color: #9a180b;
     }
-    #user_field a img {
+    a img {
         border: none;
     }
-    #user_field h1, #user_field h2, #user_field h3, #user_field h4, #user_field h5, #user_field h6 {
+    h1, h2, h3, h4, h5, h6 {
         font-family: 'Segoe UI', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
         font-weight: normal;
         font-style: normal;
@@ -87,52 +84,52 @@
         text-rendering: optimizeLegibility;
         line-height: 1.4;
     }
-    #user_field h1 small, #user_field h2 small, #user_field h3 small, #user_field h4 small, #user_field h5 small, #user_field h6 small {
+    h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
         font-size: 60%;
         color: #6f6f6f;
         line-height: 0;
     }
-    #user_field h1 {
+    h1 {
         font-size: 2.125rem;
     }
-    #user_field h2 {
+    h2 {
         font-size: 1.6875rem;
     }
-    #user_field h3 {
+    h3 {
         font-size: 1.375rem;
     }
-    #user_field h4 {
+    h4 {
         font-size: 1.125rem;
     }
-    #user_field h5 {
+    h5 {
         font-size: 1.125rem;
     }
-    #user_field h6 {
+    h6 {
         font-size: 1rem;
     }
-    #user_field .subheader {
+    .subheader {
         line-height: 1.4;
         color: #6f6f6f;
         font-weight: normal;
         margin-top: 0.2rem;
         margin-bottom: 0.5rem;
     }
-    #user_field hr {
+    hr {
         border: solid #dddddd;
         border-width: 1px 0 0;
         clear: both;
         margin: 1.25rem 0 1.1875rem;
         height: 0;
     }
-    #user_field em, #user_field i {
+    em, i {
         font-style: italic;
         line-height: inherit;
     }
-    #user_field strong, #user_field b {
+    strong, b {
         font-weight: bold;
         line-height: inherit;
     }
-    #user_field p {
+    p {
         font-family: inherit;
         font-weight: normal;
         font-size: 1rem;
@@ -140,16 +137,16 @@
         margin-bottom: 1.25rem;
         text-rendering: optimizeLegibility;
     }
-    #user_field p.lead {
+    p.lead {
         font-size: 1.21875rem;
         line-height: 1.6;
     }
-    #user_field p aside {
+    p aside {
         font-size: 0.875rem;
         line-height: 1.35;
         font-style: italic;
     }
-    #user_field .th {
+    .th {
         line-height: 0;
         display: inline-block;
         border: solid 4px white;
@@ -157,22 +154,22 @@
         box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
         transition: all 200ms ease-out;
     }
-    #user_field .th:hover, #user_field .th:focus {
+    .th:hover, .th:focus {
         box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
     }
-    #user_field .th.radius {
+    .th.radius {
         border-radius: 3px;
     }
-    #user_field .pricing-table {
+    .pricing-table {
         border: solid 1px #dddddd;
         margin-left: 0;
         margin-bottom: 1.25rem;
     }
-    #user_field .pricing-table * {
+    .pricing-table * {
         list-style: none;
         line-height: 1;
     }
-    #user_field .pricing-table .title {
+    .pricing-table .title {
         background-color: #333333;
         padding: 0.9375rem 1.25rem;
         text-align: center;
@@ -181,7 +178,7 @@
         font-size: 1rem;
         font-family: 'Segoe UI', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     }
-    #user_field .pricing-table .price {
+    .pricing-table .price {
         background-color: #f6f6f6;
         padding: 0.9375rem 1.25rem;
         text-align: center;
@@ -190,7 +187,7 @@
         font-size: 2rem;
         font-family: 'Segoe UI', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     }
-    #user_field .pricing-table .description {
+    .pricing-table .description {
         background-color: white;
         padding: 0.9375rem;
         text-align: center;
@@ -200,7 +197,7 @@
         line-height: 1.4;
         border-bottom: dotted 1px #dddddd;
     }
-    #user_field .pricing-table .bullet-item {
+    .pricing-table .bullet-item {
         background-color: white;
         padding: 0.9375rem;
         text-align: center;
@@ -209,364 +206,374 @@
         font-weight: normal;
         border-bottom: dotted 1px #dddddd;
     }
-    #user_field .pricing-table .cta-button {
+    .pricing-table .cta-button {
         background-color: white;
         text-align: center;
         padding: 1.25rem 1.25rem 0;
     }
-    #user_field table {
+    table {
         margin-bottom: 1.25rem;
     }
-    #user_field table thead, #user_field table tfoot {
+    table thead, table tfoot {
         background: #9f9b9b;
     }
-    #user_field table thead tr th, #user_field table thead tr td, #user_field table tfoot tr th, #user_field table tfoot tr td {
+    table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td {
         padding: 0.5rem 0.625rem 0.625rem;
         font-size: 0.875rem;
         font-weight: bold;
         color: #fff;
         text-align: left;
     }
-    #user_field table tr th, #user_field table tr td {
+    table tr th, table tr td {
         padding: 0.5625rem 0.625rem;
         font-size: 0.875rem;
         color: #222222;
     }
-    #user_field table tr.even, #user_field table tr.alt, #user_field table tr:nth-of-type(even) {
+    table tr.even, table tr.alt, table tr:nth-of-type(even) {
         background: whitesmoke;
     }
-    #user_field table thead tr th, #user_field table tfoot tr th, #user_field table tbody tr td, #user_field table tr td, #user_field table tfoot tr td {
+    table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td {
         display: table-cell;
         line-height: 1.125rem;
     }
-    #user_field .column, #user_field .columns {
+    .column, .columns {
         position: relative;
         padding: 0.2375rem 0.3375rem 0.3375rem;
         float: left;
     }
-    #user_field html, #user_field {
+    html, {
         font-size: 92%;
     }
-    #user_field {
-        background: #fff;
-        color: #222222;
-        padding: 0;
-        margin: 0;
-        font-family: 'Segoe UI', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-        font-weight: normal;
-        font-style: normal;
-        line-height: 1;
-        position: relative;
-        cursor: default;
+    {
+        background: #fff
+    ;
+        color: #222222
+    ;
+        padding: 0
+    ;
+        margin: 0
+    ;
+        font-family: 'Segoe UI', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
+    ;
+        font-weight: normal
+    ;
+        font-style: normal
+    ;
+        line-height: 1
+    ;
+        position: relative
+    ;
+        cursor: default
+    ;
     }
-    #user_field a:hover {
+    a:hover {
         cursor: pointer;
     }
-    #user_field img {
+    img {
         max-width: 100%;
         height: auto;
     }
-    #user_field img {
+    img {
         -ms-interpolation-mode: bicubic;
     }
-    #user_field .large-push-0 {
+    .large-push-0 {
         position: relative;
         left: 0%;
         right: auto;
     }
-    #user_field .large-pull-0 {
+    .large-pull-0 {
         position: relative;
         right: 0%;
         left: auto;
     }
-    #user_field .large-push-1 {
+    .large-push-1 {
         position: relative;
         left: 8.33333%;
         right: auto;
     }
-    #user_field .large-pull-1 {
+    .large-pull-1 {
         position: relative;
         right: 8.33333%;
         left: auto;
     }
-    #user_field .large-push-2 {
+    .large-push-2 {
         position: relative;
         left: 16.66667%;
         right: auto;
     }
-    #user_field .large-pull-2 {
+    .large-pull-2 {
         position: relative;
         right: 16.66667%;
         left: auto;
     }
-    #user_field .large-push-3 {
+    .large-push-3 {
         position: relative;
         left: 25%;
         right: auto;
     }
-    #user_field .large-pull-3 {
+    .large-pull-3 {
         position: relative;
         right: 25%;
         left: auto;
     }
-    #user_field .large-push-4 {
+    .large-push-4 {
         position: relative;
         left: 33.33333%;
         right: auto;
     }
-    #user_field .large-pull-4 {
+    .large-pull-4 {
         position: relative;
         right: 33.33333%;
         left: auto;
     }
-    #user_field .large-push-5 {
+    .large-push-5 {
         position: relative;
         left: 41.66667%;
         right: auto;
     }
-    #user_field .large-pull-5 {
+    .large-pull-5 {
         position: relative;
         right: 41.66667%;
         left: auto;
     }
-    #user_field .large-push-6 {
+    .large-push-6 {
         position: relative;
         left: 50%;
         right: auto;
     }
-    #user_field .large-pull-6 {
+    .large-pull-6 {
         position: relative;
         right: 50%;
         left: auto;
     }
-    #user_field .large-push-7 {
+    .large-push-7 {
         position: relative;
         left: 58.33333%;
         right: auto;
     }
-    #user_field .large-pull-7 {
+    .large-pull-7 {
         position: relative;
         right: 58.33333%;
         left: auto;
     }
-    #user_field .large-push-8 {
+    .large-push-8 {
         position: relative;
         left: 66.66667%;
         right: auto;
     }
-    #user_field .large-pull-8 {
+    .large-pull-8 {
         position: relative;
         right: 66.66667%;
         left: auto;
     }
-    #user_field .large-push-9 {
+    .large-push-9 {
         position: relative;
         left: 75%;
         right: auto;
     }
-    #user_field .large-pull-9 {
+    .large-pull-9 {
         position: relative;
         right: 75%;
         left: auto;
     }
-    #user_field .large-push-10 {
+    .large-push-10 {
         position: relative;
         left: 83.33333%;
         right: auto;
     }
-    #user_field .large-pull-10 {
+    .large-pull-10 {
         position: relative;
         right: 83.33333%;
         left: auto;
     }
-    #user_field .large-push-11 {
+    .large-push-11 {
         position: relative;
         left: 91.66667%;
         right: auto;
     }
-    #user_field .large-pull-11 {
+    .large-pull-11 {
         position: relative;
         right: 91.66667%;
         left: auto;
     }
-    #user_field .large-1 {
+    .large-1 {
         width: 8.33333%;
     }
-    #user_field .large-2 {
+    .large-2 {
         width: 16.66667%;
     }
-    #user_field .large-3 {
+    .large-3 {
         width: 25%;
     }
-    #user_field .large-4 {
+    .large-4 {
         width: 33.33333%;
     }
-    #user_field .large-5 {
+    .large-5 {
         width: 41.66667%;
     }
-    #user_field .large-6 {
+    .large-6 {
         width: 50%;
     }
-    #user_field .large-7 {
+    .large-7 {
         width: 58.33333%;
     }
-    #user_field .large-8 {
+    .large-8 {
         width: 66.66667%;
     }
-    #user_field .large-9 {
+    .large-9 {
         width: 75%;
     }
-    #user_field .large-10 {
+    .large-10 {
         width: 83.33333%;
     }
-    #user_field .large-11 {
+    .large-11 {
         width: 91.66667%;
     }
-    #user_field .large-12 {
+    .large-12 {
         width: 100%;
     }
-    #user_field [class*="column"] + [class*="column"]:last-child {
+    [class*="column"] + [class*="column"]:last-child {
         float: right;
     }
-    #user_field [class*="column"] + [class*="column"].end {
+    [class*="column"] + [class*="column"].end {
         float: left;
     }
-    #user_field .large-reset-order, #user_field .large-reset-order {
+    .large-reset-order, .large-reset-order {
         margin-left: 0;
         margin-right: 0;
         left: auto;
         right: auto;
         float: left;
     }
-    #user_field .column.large-centered, #user_field .columns.large-centered {
+    .column.large-centered, .columns.large-centered {
         margin-left: auto;
         margin-right: auto;
         float: none;
     }
-    #user_field .column.large-uncentered.opposite, #user_field .columns.large-uncentered.opposite {
+    .column.large-uncentered.opposite, .columns.large-uncentered.opposite {
         float: right;
     }
-    #user_field .push-0 {
+    .push-0 {
         position: relative;
         left: 0%;
         right: auto;
     }
-    #user_field .pull-0 {
+    .pull-0 {
         position: relative;
         right: 0%;
         left: auto;
     }
-    #user_field .push-1 {
+    .push-1 {
         position: relative;
         left: 8.33333%;
         right: auto;
     }
-    #user_field .pull-1 {
+    .pull-1 {
         position: relative;
         right: 8.33333%;
         left: auto;
     }
-    #user_field .push-2 {
+    .push-2 {
         position: relative;
         left: 16.66667%;
         right: auto;
     }
-    #user_field .pull-2 {
+    .pull-2 {
         position: relative;
         right: 16.66667%;
         left: auto;
     }
-    #user_field .push-3 {
+    .push-3 {
         position: relative;
         left: 25%;
         right: auto;
     }
-    #user_field .pull-3 {
+    .pull-3 {
         position: relative;
         right: 25%;
         left: auto;
     }
-    #user_field .push-4 {
+    .push-4 {
         position: relative;
         left: 33.33333%;
         right: auto;
     }
-    #user_field .pull-4 {
+    .pull-4 {
         position: relative;
         right: 33.33333%;
         left: auto;
     }
-    #user_field .push-5 {
+    .push-5 {
         position: relative;
         left: 41.66667%;
         right: auto;
     }
-    #user_field .pull-5 {
+    .pull-5 {
         position: relative;
         right: 41.66667%;
         left: auto;
     }
-    #user_field .push-6 {
+    .push-6 {
         position: relative;
         left: 50%;
         right: auto;
     }
-    #user_field .pull-6 {
+    .pull-6 {
         position: relative;
         right: 50%;
         left: auto;
     }
-    #user_field .push-7 {
+    .push-7 {
         position: relative;
         left: 58.33333%;
         right: auto;
     }
-    #user_field .pull-7 {
+    .pull-7 {
         position: relative;
         right: 58.33333%;
         left: auto;
     }
-    #user_field .push-8 {
+    .push-8 {
         position: relative;
         left: 66.66667%;
         right: auto;
     }
-    #user_field .pull-8 {
+    .pull-8 {
         position: relative;
         right: 66.66667%;
         left: auto;
     }
-    #user_field .push-9 {
+    .push-9 {
         position: relative;
         left: 75%;
         right: auto;
     }
-    #user_field .pull-9 {
+    .pull-9 {
         position: relative;
         right: 75%;
         left: auto;
     }
-    #user_field .push-10 {
+    .push-10 {
         position: relative;
         left: 83.33333%;
         right: auto;
     }
-    #user_field .pull-10 {
+    .pull-10 {
         position: relative;
         right: 83.33333%;
         left: auto;
     }
-    #user_field .push-11 {
+    .push-11 {
         position: relative;
         left: 91.66667%;
         right: auto;
     }
-    #user_field .pull-11 {
+    .pull-11 {
         position: relative;
         right: 91.66667%;
         left: auto;
     }
-    #user_field button, #user_field .button {
+    button, .button {
         border-style: solid;
         border-width: 0px;
         cursor: pointer;
@@ -590,86 +597,86 @@
         color: white;
         transition: background-color 300ms ease-out;
     }
-    #user_field button:hover, #user_field button:focus, #user_field .button:hover, #user_field .button:focus {
+    button:hover, button:focus, .button:hover, .button:focus {
         background-color: #007095;
     }
-    #user_field button:hover, #user_field button:focus, #user_field .button:hover, #user_field .button:focus {
+    button:hover, button:focus, .button:hover, .button:focus {
         color: white;
     }
-    #user_field button.secondary, #user_field .button.secondary {
+    button.secondary, .button.secondary {
         background-color: #e7e7e7;
         border-color: #b9b9b9;
         color: #333333;
     }
-    #user_field button.secondary:hover, #user_field button.secondary:focus, #user_field .button.secondary:hover, #user_field .button.secondary:focus {
+    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
         background-color: #b9b9b9;
     }
-    #user_field button.secondary:hover, #user_field button.secondary:focus, #user_field .button.secondary:hover, #user_field .button.secondary:focus {
+    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
         color: #333333;
     }
-    #user_field button.success, #user_field .button.success {
+    button.success, .button.success {
         background-color: #43ac6a;
         border-color: #368a55;
         color: white;
     }
-    #user_field button.success:hover, #user_field button.success:focus, #user_field .button.success:hover, #user_field .button.success:focus {
+    button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
         background-color: #368a55;
     }
-    #user_field button.success:hover, #user_field button.success:focus, #user_field .button.success:hover, #user_field .button.success:focus {
+    button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
         color: white;
     }
-    #user_field button.alert, #user_field .button.alert {
+    button.alert, .button.alert {
         background-color: #f04124;
         border-color: #cf2a0e;
         color: white;
     }
-    #user_field button.alert:hover, #user_field button.alert:focus, #user_field .button.alert:hover, #user_field .button.alert:focus {
+    button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
         background-color: #cf2a0e;
     }
-    #user_field button.alert:hover, #user_field button.alert:focus, #user_field .button.alert:hover, #user_field .button.alert:focus {
+    button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
         color: white;
     }
-    #user_field button.large, #user_field .button.large {
+    button.large, .button.large {
         padding-top: 1.125rem;
         padding-right: 2.25rem;
         padding-bottom: 1.1875rem;
         padding-left: 2.25rem;
         font-size: 1.25rem;
     }
-    #user_field button.small, #user_field .button.small {
+    button.small, .button.small {
         padding-top: 0.875rem;
         padding-right: 1.75rem;
         padding-bottom: 0.9375rem;
         padding-left: 1.75rem;
         font-size: 0.8125rem;
     }
-    #user_field button.tiny, #user_field .button.tiny {
+    button.tiny, .button.tiny {
         padding-top: 0.625rem;
         padding-right: 1.25rem;
         padding-bottom: 0.6875rem;
         padding-left: 1.25rem;
         font-size: 0.6875rem;
     }
-    #user_field button.expand, #user_field .button.expand {
+    button.expand, .button.expand {
         padding-right: 0;
         padding-left: 0;
         width: 100%;
     }
-    #user_field button.left-align, #user_field .button.left-align {
+    button.left-align, .button.left-align {
         text-align: left;
         text-indent: 0.75rem;
     }
-    #user_field button.right-align, #user_field .button.right-align {
+    button.right-align, .button.right-align {
         text-align: right;
         padding-right: 0.75rem;
     }
-    #user_field button.radius, #user_field .button.radius {
+    button.radius, .button.radius {
         border-radius: 3px;
     }
-    #user_field button.round, #user_field .button.round {
+    button.round, .button.round {
         border-radius: 1000px;
     }
-    #user_field button.disabled, #user_field button[disabled], #user_field .button.disabled, #user_field .button[disabled] {
+    button.disabled, button[disabled], .button.disabled, .button[disabled] {
         background-color: #008cba;
         border-color: #007095;
         color: white;
@@ -677,16 +684,16 @@
         opacity: 0.7;
         box-shadow: none;
     }
-    #user_field button.disabled:hover, #user_field button.disabled:focus, #user_field button[disabled]:hover, #user_field button[disabled]:focus, #user_field .button.disabled:hover, #user_field .button.disabled:focus, #user_field .button[disabled]:hover, #user_field .button[disabled]:focus {
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
         background-color: #007095;
     }
-    #user_field button.disabled:hover, #user_field button.disabled:focus, #user_field button[disabled]:hover, #user_field button[disabled]:focus, #user_field .button.disabled:hover, #user_field .button.disabled:focus, #user_field .button[disabled]:hover, #user_field .button[disabled]:focus {
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
         color: white;
     }
-    #user_field button.disabled:hover, #user_field button.disabled:focus, #user_field button[disabled]:hover, #user_field button[disabled]:focus, #user_field .button.disabled:hover, #user_field .button.disabled:focus, #user_field .button[disabled]:hover, #user_field .button[disabled]:focus {
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
         background-color: #008cba;
     }
-    #user_field button.disabled.secondary, #user_field button[disabled].secondary, #user_field .button.disabled.secondary, #user_field .button[disabled].secondary {
+    button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
         background-color: #e7e7e7;
         border-color: #b9b9b9;
         color: #333333;
@@ -694,16 +701,16 @@
         opacity: 0.7;
         box-shadow: none;
     }
-    #user_field button.disabled.secondary:hover, #user_field button.disabled.secondary:focus, #user_field button[disabled].secondary:hover, #user_field button[disabled].secondary:focus, #user_field .button.disabled.secondary:hover, #user_field .button.disabled.secondary:focus, #user_field .button[disabled].secondary:hover, #user_field .button[disabled].secondary:focus {
+    button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
         background-color: #b9b9b9;
     }
-    #user_field button.disabled.secondary:hover, #user_field button.disabled.secondary:focus, #user_field button[disabled].secondary:hover, #user_field button[disabled].secondary:focus, #user_field .button.disabled.secondary:hover, #user_field .button.disabled.secondary:focus, #user_field .button[disabled].secondary:hover, #user_field .button[disabled].secondary:focus {
+    button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
         color: #333333;
     }
-    #user_field button.disabled.secondary:hover, #user_field button.disabled.secondary:focus, #user_field button[disabled].secondary:hover, #user_field button[disabled].secondary:focus, #user_field .button.disabled.secondary:hover, #user_field .button.disabled.secondary:focus, #user_field .button[disabled].secondary:hover, #user_field .button[disabled].secondary:focus {
+    button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
         background-color: #e7e7e7;
     }
-    #user_field button.disabled.success, #user_field button[disabled].success, #user_field .button.disabled.success, #user_field .button[disabled].success {
+    button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
         background-color: #43ac6a;
         border-color: #368a55;
         color: white;
@@ -711,16 +718,16 @@
         opacity: 0.7;
         box-shadow: none;
     }
-    #user_field button.disabled.success:hover, #user_field button.disabled.success:focus, #user_field button[disabled].success:hover, #user_field button[disabled].success:focus, #user_field .button.disabled.success:hover, #user_field .button.disabled.success:focus, #user_field .button[disabled].success:hover, #user_field .button[disabled].success:focus {
+    button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
         background-color: #368a55;
     }
-    #user_field button.disabled.success:hover, #user_field button.disabled.success:focus, #user_field button[disabled].success:hover, #user_field button[disabled].success:focus, #user_field .button.disabled.success:hover, #user_field .button.disabled.success:focus, #user_field .button[disabled].success:hover, #user_field .button[disabled].success:focus {
+    button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
         color: white;
     }
-    #user_field button.disabled.success:hover, #user_field button.disabled.success:focus, #user_field button[disabled].success:hover, #user_field button[disabled].success:focus, #user_field .button.disabled.success:hover, #user_field .button.disabled.success:focus, #user_field .button[disabled].success:hover, #user_field .button[disabled].success:focus {
+    button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
         background-color: #43ac6a;
     }
-    #user_field button.disabled.alert, #user_field button[disabled].alert, #user_field .button.disabled.alert, #user_field .button[disabled].alert {
+    button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
         background-color: #f04124;
         border-color: #cf2a0e;
         color: white;
@@ -728,20 +735,20 @@
         opacity: 0.7;
         box-shadow: none;
     }
-    #user_field button.disabled.alert:hover, #user_field button.disabled.alert:focus, #user_field button[disabled].alert:hover, #user_field button[disabled].alert:focus, #user_field .button.disabled.alert:hover, #user_field .button.disabled.alert:focus, #user_field .button[disabled].alert:hover, #user_field .button[disabled].alert:focus {
+    button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
         background-color: #cf2a0e;
     }
-    #user_field button.disabled.alert:hover, #user_field button.disabled.alert:focus, #user_field button[disabled].alert:hover, #user_field button[disabled].alert:focus, #user_field .button.disabled.alert:hover, #user_field .button.disabled.alert:focus, #user_field .button[disabled].alert:hover, #user_field .button[disabled].alert:focus {
+    button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
         color: white;
     }
-    #user_field button.disabled.alert:hover, #user_field button.disabled.alert:focus, #user_field button[disabled].alert:hover, #user_field button[disabled].alert:focus, #user_field .button.disabled.alert:hover, #user_field .button.disabled.alert:focus, #user_field .button[disabled].alert:hover, #user_field .button[disabled].alert:focus {
+    button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
         background-color: #f04124;
     }
-    #user_field div, #user_field dl, #user_field dt, #user_field dd, #user_field ul, #user_field ol, #user_field li, #user_field h1, #user_field h2, #user_field h3, #user_field h4, #user_field h5, #user_field h6, #user_field pre, #user_field form, #user_field p, #user_field blockquote, #user_field th, #user_field td {
+    div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
         margin: 0;
         padding: 0;
     }
-    #user_field .ogloszenie h1 {
+    .ogloszenie h1 {
         margin: 15px 5px;
         color: #B20008;
         text-align: center;
@@ -755,7 +762,7 @@
         -moz-border-radius-bottomright: 4px;
         -webkit-border-bottom-right-radius: 4px;
     }
-    #user_field .ogloszenie h2 {
+    .ogloszenie h2 {
         margin: 0 1px;
         font-size: 1.6em;
         font-weight: normal;
@@ -764,11 +771,7 @@
         text-transform: uppercase;
         text-align: center;
     }
-    #user_field .ogloszenie .opis h2 {
-        color: #B20008;
-        border: 0;
-    }
-    #user_field .ogloszenie h3 {
+    .ogloszenie h3 {
         background: #B20008;
         margin: 0 1px;
         color: #fff;
@@ -778,35 +781,34 @@
         border-radius: 3px;
         text-align: center;
     }
-    #user_field .ogloszenie p {
+    .ogloszenie p {
         font-size: 14.7167px;
     }
-    #user_field .ogloszenie table {
+    .ogloszenie table {
         width: 100%;
         border-collapse: collapse;
         text-align: center;
-        margin-bottom: 18.4px;
         padding: 0.5625rem 0.625rem;
     }
-    #user_field .ogloszenie table td {
+    .ogloszenie table td {
         font-size: 12pt;
         line-height: 16.55px;
     }
-    #user_field .ogloszenie .ceny td {
+    .ogloszenie .ceny td {
         border: 1px grey solid;
         text-align: center;
     }
-    #user_field .ogloszenie table th {
+    .ogloszenie table th {
         font-size: 12pt;
         line-height: 16.55px;
     }
-    #user_field .ogloszenie .czerwony {
+    .ogloszenie .czerwony {
         color: #B20008;
     }
-    #user_field .ogloszenie a:hover {
+    .ogloszenie a:hover {
         text-decoration: underline;
     }
-    #user_field .ogloszenie {
+    .ogloszenie {
         background: white;
         display: block;
         width: 982px;
@@ -824,205 +826,154 @@
         background: white;
         margin-bottom: 20px;
     }
-    #user_field .ogloszenie h4 {
+    .ogloszenie h4 {
         text-align: center;
         font-size: 21.15px;
     }
-    #user_field .ogloszenie .button {
+    .ogloszenie .button {
         color: #ffffff;
         background-color: #B20008;
         border-color: #B20008;
         margin-bottom: 0;
         font-size: 14.7167px;
     }
-    #user_field .ogloszenie .button:hover {
+    .ogloszenie .button:hover {
     }
-    #user_field .ogloszenie ul li {
+    .ogloszenie ul li {
         list-style-type: square;
         list-style-position: inside;
     }
-    #user_field .ogloszenie .secondary {
+    .ogloszenie .opis li {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    .ogloszenie .secondary {
         background-color: #E7E7E7;
         border-color: #B9B9B9;
         color: #333;
     }
-    #user_field .ogloszenie .opis p {
+    .ogloszenie .opis p {
         padding-left: 10px;
         padding-right: 10px;
         text-align: center;
-        line-height: 23.55px;
     }
-    #user_field .ogloszenie .small {
+    .reveal-modal h2 {
+        border: 0;
+    }
+    .ogloszenie .small {
         font-size: 11.95px;
     }
-    #user_field .ogloszenie .clearfix {
-        height: 1px;
-        width: 100%;
+    .centrowanie {
         display: block;
+        margin: auto;
+        float: none;
     }
 </style>
-<div id="user_field">
-    <div class="ogloszenie">
-        <div class="row"><h1 class="large-12 columns"> KONTENER BUDOWLANY W IDEALNYM STANIE - UŻYWANY </h1>
-            <div class="large-5 columns button"> Sprzedaż - <b> 10 500 zł</b></div>
-            <div class="large-5 columns button"> Wynajem - <b> 350 zł / miesiąc</b></div>
-        </div>
-        <div class="large-8 columns opis">
-            <hr>
-            <h3>Informacje techniczne</h3>        <br/>
-            <div style="padding-left:10px;padding-right:10px;"><h4><strong>KONSTRUKCJA</strong></h4>
-                <p> Ramowa, spawana, wykonana z zimnogiętych profili stalowych. Dodatkowo pokryta farbą antykorozyjną oraz
-                    emalią nawierzchniową. </p>            </br><h4><strong>PODŁOGA</strong></h4>
-                <p> Wykonana jest z profilu zimno-giętego. Wełna mineralna o grubości 100 mm pełni rolę izolacji termicznej. <b>Dodatkowo paraizolacja: folia PE, wykładzina PCV.</b>
-                </p>            </br><h4><strong>STROPODACH</strong></h4>
-                <p> Sufit wykonany, paraizolacja: folia PE, izolacja termiczna: wełna mineralna. <b>Wodoodporna płyta OSB + rynny wewnętrzne PCV.</b>
-                </p>            </br><h4><strong>ŚCIANY ZEWNĘTRZNE</strong></h4>
-                <p> Płyta warstwowa ze rdzeniem styropianowym o gr. 100 mm, okładzina z blachy stalowej, ocynkowanej, lakierowanej farbami poliestrowymi w kolorze wybranym przez klienta. Udostępniamy możliwość wyboru rdzenia płyty warstwowej.
-                    Przykładowe parametry i koszty:
-                    <br>
-                    <br>
-                <table>
-                    <tr>
-                        <th>Właściwości</th>
-                        <th>Styropian</th>
-                        <th>Wełna Mineralna</th>
-                        <th>Poliuretan</th>
-                    </tr>
-                    <tr>
-                        <th>Przenikanie ciepła</th>
-                        <td>0,37 [W/m²K]</td>
-                        <td>0,21 [W/m²K]</td>
-                        <td>0,39 [W/m²K]</td>
-                    </tr>
-                    <tr>
-                        <th>Izolacyjność dźwięku</th>
-                        <td>24 [dB]</td>
-                        <td>25 [dB]</td>
-                        <td>31 [dB]</td>
-                    </tr>
-                    <tr>
-                        <th>Odporność ogniowa</th>
-                        <td>E15 / EW15</td>
-                        <td>EI 20 / EI 30</td>
-                        <td>EI 90 / E 120</td>
-                    </tr>
-                    <tr>
-                        <th>Drzwi</th>
-                        <td>metalowe Hormann</td>
-                        <td>PPOŻ<br>
-                            Hormann</td>
-                        <td>PPOŻ
-                            Hormann</td>
-                    </tr>
-                    <tr>
-                        <th>Koszt</th>
-                        <td>(w cenie)</td>
-                        <td>+ 2000 zł</td>
-                        <td>+ 2000 zł</td>
-                    </tr>
-                </table>
-                </p>            <h4><strong>INSTALACJA ELEKTRYCZNA</strong></h4>
-                <p> Przewody prowadzone natynkowo w korytkach kablowych, tablica elektryczna z wyposażeniem, oświetlenie, gniazda wtykowe ogólne. </p>            </br><h4><strong>STOLARKA OKIENNO DRZWIOWA</strong></h4>
-                <p> Drzwi wejściowe PCV 1100 mm x 2100 (ciepłe), Szczelne okno PCV. </p>            <br/></div>
-        </div>
-        <div class="large-4 columns">
-            <hr>
-            <div class="row"><h3>Zdjęcia</h3>            <br/>
-                <div class="large-12 columns" style="padding:0px;"><a class="th" href="http://abrkontenery.pl/#socjalne">
-                    <img src="http://galeria.abrsteel.pl/kontenery-budowlane/budowlany-zielony.gif" class="img-thumbnail"> </a></div>
-                <hr>
-                <!--Zdjęcie1-->
-                <div class="large-6 columns" style="padding:0px;"><a class="th" href="http://galeria.abrsteel.pl/kontenery-budowlane/kontener_budowlany1.jpg" target="_blank"> <img src="http://galeria.abrsteel.pl/kontenery-budowlane/Male/Kontener_budowlany.jpg" class="img-thumbnail"> </a></div>
-                <!--Zdjęcie2-->
-                <div class="large-6 columns" style="padding:0px;"><a class="th" href="http://galeria.abrsteel.pl/kontenery-budowlane/kontener_budowlany2.jpg" target="_blank"> <img src="http://galeria.abrsteel.pl/kontenery-budowlane/Male/Kontener_budowlany2.jpg" class="img-thumbnail"> </a></div>
-                <!--Zdjęcie3-->
-                <div class="large-6 columns" style="padding:0px;"><a class="th" href="http://abrkontenery.pl/Content/Img/Budowlane/27-07-2015/kontener_budowlany_00446.jpg" target="_blank"> <img src="http://galeria.abrsteel.pl/kontenery-budowlane/-Kontener_budowlany-.jpg" class="img-thumbnail"> </a></div>
-                <!--Zdjęcie4-->
-                <div class="large-6 columns" style="padding:0px;"><a class="th" href="http://abrkontenery.pl//Content/Img/Budowlane/27-07-2015/kontener_budowlany_00459.jpg" target="_blank"> <img src="http://galeria.abrsteel.pl/kontenery-budowlane/Kontener_budowlany-.jpg" class="img-thumbnail"> </a></div>
-            </div>
-            <br>
-            <br>
-            <hr>
-            <br>
-            <h3>Zapytaj o ofertę</h3>        <br/> <a href="tel:+48534460464"><p style="font-size:1.6em;text-align:center;width:100%"><img style="height:25px;float:left;" src="http://galeria.abrsteel.pl/SZABLONv3/img/smartphone140.png" /><span style="font-size:0.9em;">+48 </span>534 460 464</p></a> <a href="tel:+48730430630"><p style="font-size:1.6em;text-align:center;width:100%"><img style="height:25px;float:left;" src="http://galeria.abrsteel.pl/SZABLONv3/img/smartphone140.png" /><span style="font-size:0.9em;">+48 </span>730 430 630</p></a> <a href="mailto:biuro@abrkontenery.pl"><p style="font-size:1.2em;text-align:center;width:100%;"><img style="height:25px;float:left;" src="http://galeria.abrsteel.pl/SZABLONv3/img/envelope68.png" />biuro@abrkontenery.pl
-        </p></a> <br/> <a href="http://abrkontenery.pl/#kontakt" class="button radius expand"><b>Poproś o kontakt</b></a> <a href="http://abrkontenery.pl/#kontakt" class="button radius expand" style="margin-top:5px;"><b>Prześlij nam
-            swój projekt/szkic</b></a></div>
-        <div class="large-12 columns">
-            <h3>Wymiary</h3>
-            <table>
-                <br>
-                <tr>
-                    <th>Kontener</th>
-                    <th>Zewnętrzne</th>
-                    <th>Wewnętrzne</th>
-                    <th>Drzwi wejściowe</th>
-                    <th>Okno</th>
-                </tr>
-                <tr>
-                    <td>Długość</td>
-                    <td>2 410 mm</td>
-                    <td>2 310 mm</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Szerokość</td>
-                    <td>6 010 mm</td>
-                    <td>5 810 mm</td>
-                    <td>900 mm</td>
-                    <td>1 100 mm</td>
-                </tr>
-                <tr>
-                    <td>Wysokość</td>
-                    <td>2 860 mm</td>
-                    <td>2 500 mm</td>
-                    <td>2 100 mm</td>
-                    <td>1 100 mm</td>
-                </tr>
-            </table>
-        </div>
-        <!--stopka start-->
+<div class="ogloszenie">
+    <div class="row"><h1 class="large-12 columns" style="font-size:1.8em;"> RAMY KONTENEROWE - NOWE - DOSTĘPNE OD
+        ZARAZ </h1>
         <hr/>
-        <div class="row">
-            <div class="large-12 columns">
-                <center>
-                    <a target="_blank" href="http://www.abrkontenery.pl/#usluga" class="button small radius">Pawilony Handlowe</a>
-                    <a target="_blank" href="http://www.abrkontenery.pl/#magazynowe" class="button small radius">Kontenery Magazynowe</a>
-                    <a target="_blank" href="http://www.abrkontenery.pl/#socjalne" class="button small radius">Kontenery Budowlane</a>
-                    <a target="_blank" href="http://www.abrkontenery.pl/#hakowy" class="button small radius">Kontenery Hakowe</a>
-                    <a target="_blank" href="http://www.abrkontenery.pl/#portiernia_strozowka" class="button small radius">Portiernie</a>
-                    <a target="_blank" href="http://www.abrkontenery.pl/#portiernia_strozowka" class="button small radius">Strożówki</a>
-                </center>
-            </div>
+        <div class="centrowanie large-5 columns button"> Sprzedaż - <b> 5 000 zł</b></div>
+    </div>
+    <div class="large-8 columns opis">
+        <hr>
+        <h3>Informacje techniczne</h3> <br/> <br>
+        <p>
+        <li>Obciążenie użytkowe podłogi 250kg/mkw</li>
+        <li>Obciążenie dachu wynosi 150kg/mkw</li>
+        <br>
+        <p>Spad dachu jednostronny, zakończony rynną spustową. Istnieje możliwość ocynkowania ramy lub zabezpieczenie
+            przeciwogniowego R30/C4. Pojedyncza konstrukcja nie posiada otworów montażowych pod śruby M12.</p>
+        <br> <br> </p> <p><strong>Ramy kontenerowe wykonane z profili zimnogiętych ze stali S235 o
+        następujących przekrojach:</strong>
+        <p><br>
+        <li>Belka poprzeczna dachu – RK 40x4</li>
+        <li>Belka poprzeczna stropu – RK 60x4</li>
+        <li>Belka główna dachu i stropu RP 120x60x4</li>
+        <li>Słupek pośredni – RK 40x4</li>
+        <li>Słupek narośny – LR 120x5</li>
+        </p> <br> <br>
+        <p><b>Profesjonalnie wykonane ramy kontenerowe z myślą o złożonych i obciążonych kondygnacjach
+            kontenerowych.</b></p> <br> <br>
+        <p>Ewentualne łączenie kontenerów w celu uzyskania obiektu dwukondygnacyjnego należy wykonać za pomocą śrub M12
+            klasy 4,8, lub stosując odpowiednie klamry stalowe. Łączenia wykonać w narożach oraz przy słupkach
+            pośrednich.</p> <br/> <br/>
+        <div class="large-12 columns"></div>
+    </div>
+    <div class="large-4 columns">
+        <hr>
+        <div class="row"><h3>Zdjęcia</h3> <br/>
+            <div class="large-12 columns" style="padding:0px;"><a class="th" href="http://abrkontenery.pl/"> <img
+                    src="http://galeria.abrsteel.pl/ramy/rama.gif" class="img-thumbnail"/> </a></div>
+            <div class="large-6 columns" style="padding:0px;"><a class="th"
+                                                                 href="http://galeria.abrsteel.pl/ramy/rama%20duza1.jpg"
+                                                                 target="_blank"> <img
+                    src="http://galeria.abrsteel.pl/ramy/rama%20mala1.jpg" class="img-thumbnail"> </a></div>
+            <div class="large-6 columns" style="padding:0px;"><a class="th"
+                                                                 href="http://galeria.abrsteel.pl/ramy/rama%20duza2.jpg"
+                                                                 target="_blank"> <img
+                    src="http://galeria.abrsteel.pl/ramy/rama%20mala2.jpg"> </a></div>
+            <div class="large-6 columns" style="padding:0px;"><a class="th"
+                                                                 href="http://galeria.abrsteel.pl/ramy/rama%20duza3.jpg"
+                                                                 target="_blank"> <img
+                    src="http://galeria.abrsteel.pl/ramy/rama%20mala3.jpg" class="img-thumbnail"> </a></div>
+            <div class="large-6 columns" style="padding:0px;"><a class="th"
+                                                                 href="http://galeria.abrsteel.pl/ramy/rama%20duza4.jpg"
+                                                                 target="_blank"> <img
+                    src="http://galeria.abrsteel.pl/ramy/rama%20mala4.jpg" class="img-thumbnail"> </a></div>
+            <div class="clearfix"></div>
         </div>
         <hr>
-        <div class="row">
-            <div class="large-4 columns"><a href="http://abrkontenery.pl"> <center><img style="height:100px;" src="http://www.abrkontenery.pl/Content/Img/abr_logo2.png" /></center> </a></div>
-            <div class="large-4 columns">
-                <p style="font-size:18px;text-align:center;margin-top: 7px" ;><b>ABR Sp. z o.o.</b> </b><br/> 43-190 Mikołów, ul. Dzieńdziela 40
-                    <b><a href="http://abrkontenery.pl">www.abrkontenery.pl</a>
-                </p>
-            </div>
-            <div class="large-4 columns" style="float:left"><p style="font-size:18px;text-align:center;margin-top: 7px" ;>
-                <strong>NIP:</strong> 635-173-49-72<br/><strong>Regon:</strong> 240309585<br/><strong>KRS:</strong> 0000164345 </p>
-            </div>
+        <h3>Zapytaj o ofertę</h3> <br/> <a href="tel:+48534460464"><p
+            style="font-size:1.6em;text-align:center;width:100%"><img style="height:25px;float:left;"
+                                                                      src="http://galeria.abrsteel.pl/SZABLONv3/img/smartphone140.png"/><span
+            style="font-size:0.9em;">+48 </span>534 460 464</p></a> <a href="tel:+48507155774"><p
+            style="font-size:1.6em;text-align:center;width:100%"><img style="height:25px;float:left;"
+                                                                      src="http://galeria.abrsteel.pl/SZABLONv3/img/smartphone140.png"/><span
+            style="font-size:0.9em;">+48 </span>730 430 630</p></a> <a href="mailto:biuro@abrkontenery.pl"><p
+            style="font-size:1.2em;text-align:center;width:100%;"><img style="height:25px;float:left;"
+                                                                       src="http://galeria.abrsteel.pl/SZABLONv3/img/envelope68.png"/>biuro@abrkontenery.pl
+    </p></a> <br/> <a href="http://abrkontenery.pl/#kontakt" class="button radius expand"><b>Poproś o kontakt</b></a> <a
+            href="http://abrkontenery.pl/#kontakt" class="button radius expand" style="margin-top:5px;"><b>Prześlij nam swój
+        projekt/szkic</b></a>
+        <hr/>
+        </a></div>
+    <hr> <!--stopka start-->
+    <div class="row">
+        <div class="large-12 columns">
+            <center><a target="_blank" href="http://www.abrkontenery.pl/#usluga" class="button small radius">Pawilony
+                Handlowe</a> <a target="_blank" href="http://www.abrkontenery.pl/#magazynowe"
+                                class="button small radius">Kontenery Magazynowe</a> <a target="_blank"
+                                                                                        href="http://www.abrkontenery.pl/#socjalne"
+                                                                                        class="button small radius">Kontenery
+                Budowlane</a> <a target="_blank" href="http://www.abrkontenery.pl/#hakowy" class="button small radius">Kontenery
+                Hakowe</a> <a target="_blank" href="http://www.abrkontenery.pl/#portiernia_strozowka"
+                              class="button small radius">Portiernie</a> <a target="_blank"
+                                                                            href="http://www.abrkontenery.pl/#portiernia_strozowka"
+                                                                            class="button small radius">Strożówki</a>
+            </center>
         </div>
-        <br>
-        <div class="row">
-            <div class="large-6 columns">
-                <a href="http://abrsteel.pl/programue">
-                    <img style="margin-top:6px;height:70px" src="http://www.abrsteel.pl/Media/Default/Img/UE3_700.jpg" />
-                </a>
-            </div>
-            <div class="large-6 columns">
-                <a href="http://gieldakontenerow.pl">
-                    <img style="height:80px;float:right" src="http://galeria.abrsteel.pl/Hakowce/gieldakontenerowmodyfikacja.jpg" />
-                </a>
-            </div>
-        </div>
-        <br/>
-        <!--stopka koniec-->
     </div>
-</div>
-</div>
+    <hr>
+    <div class="row">
+        <div class="large-4 columns"><a href="http://abrkontenery.pl">
+            <center><img style="height:100px;" src="http://www.abrkontenery.pl/Content/Img/abr_logo2.png"/></center>
+        </a></div>
+        <div class="large-4 columns"><p style="font-size:18px;text-align:center;margin-top: 7px" ;><b>ABR Sp. z
+            o.o.</b> </b><br/> 43-190 Mikołów, ul. Dzieńdziela 40 <b><a href="http://abrkontenery.pl">www.abrkontenery.pl</a>
+        </p></div>
+        <div class="large-4 columns" style="float:left"><p style="font-size:18px;text-align:center;margin-top: 7px" ;>
+            <strong>NIP:</strong> 635-173-49-72<br/><strong>Regon:</strong> 240309585<br/><strong>KRS:</strong>
+            0000164345 </p></div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="large-6 columns"><a href="http://abrsteel.pl/programue"> <img style="margin-top:6px;height:70px"
+                                                                                  src="http://www.abrsteel.pl/Media/Default/Img/UE3_700.jpg"/>
+        </a></div>
+        <div class="large-6 columns"><a href="http://gieldakontenerow.pl"> <img style="height:80px;float:right"
+                                                                                src="http://galeria.abrsteel.pl/Hakowce/gieldakontenerowmodyfikacja.jpg"/>
+        </a></div>
+    </div>
+    <br/> <!--stopka koniec-->
 </div>
